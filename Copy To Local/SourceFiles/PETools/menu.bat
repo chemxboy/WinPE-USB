@@ -19,26 +19,18 @@ echo  Select an option:
 echo.
 echo  [1] - Launch ImageX GUI
 echo  [2] - Launch Ghost GUI
+echo  [3] - Duplicate this USB key
 echo.
-echo  [3] - Do an automated ImageX deployment [*NOT IMPLEMENTED YET*]
-echo  [4] - Do an automated ImageX capture    [*NOT IMPLEMENTED YET*]
-echo.
-echo  [5] - Duplicate this USB key
-echo.
-echo  [6] - Help!                             [*NOT IMPLEMENTED YET*] 
-echo  [7] - Exit
+echo  [x] - Exit
 echo.
 echo.
-choice.exe /c:1234567 /n /t:7,10 "Choose from the above options [Default: 7]: "
+choice.exe /c:123x /n /t:x,10 "Choose from the above options [Default: x]: "
 echo.
 
 if %errorlevel%==1 goto CHOICE_1 
 if %errorlevel%==2 goto CHOICE_2 
 if %errorlevel%==3 goto CHOICE_3
-if %errorlevel%==4 goto CHOICE_4
-if %errorlevel%==5 goto CHOICE_5
-if %errorlevel%==6 goto CHOICE_6
-if %errorlevel%==7 goto CHOICE_7
+if %errorlevel%==4 goto CHOICE_x
 goto start 
 goto error 
 
@@ -60,36 +52,19 @@ echo Press any key to return to Main Options Menu . . .
 pause >nul
 goto start 
 
-:CHOICE_3 
+:CHOICE_3
 echo.
 echo Option Selected: 3
-echo [*NOT IMPLEMENTED YET*]
-goto finish 
-
-:CHOICE_4
-echo.
-echo Option Selected: 4 
-echo [*NOT IMPLEMENTED YET*]
-goto finish 
-
-:CHOICE_5
-echo.
-echo Option Selected: 5
 call Make-WinPE-USB-Clone.cmd
 echo.
 echo Press any key to return to Main Options Menu . . .
 pause >nul
 goto start
 
-:CHOICE_6
-echo.
-echo Option Selected: 6
-echo [*NOT IMPLEMENTED YET*] - Call Neil if you must :P
-goto finish 
 
-:CHOICE_7 
+:CHOICE_x 
 echo.
-echo Option Selected: 7
+echo Option Selected: x
 echo You can relaunch the main options menu at any time by typing: "menu"
 echo at the command prompt.
 goto end 

@@ -36,7 +36,3 @@
 
 1.4.1 - Duplicate Fix
 * Recreate the duplicate USB method so that its compatible with Windows XP (& upwards)
-
-
-TO DO:
-* Created a Image Options Menu (pemenu.bat) to perform common ImageX and Ghost tasks
