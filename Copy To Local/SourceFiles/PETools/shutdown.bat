@@ -1,3 +1,0 @@
-@echo off
-echo Shutting Down...
-wpeutil shutdown

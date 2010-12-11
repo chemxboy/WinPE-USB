@@ -1,0 +1,60 @@
+; PE Builder v3 plug-in INF file
+; Created by BoaSoftware
+
+[Version]
+Signature= "$Windows NT$"
+
+[PEBuilder]
+Name="BS Explorer"
+Enable=1
+Help="BsExplorer.htm"
+
+[WinntDirectories]
+a="Programs\BsExplorer",2
+
+[SourceDisksFiles]
+explorer.exe=a,,3
+bs_explorer.ini=a,,3
+bs_qlaunch.ini=a,,3
+bs_start.ini=a,,3
+bs_desktop.ini=a,,3
+bs_menu.bmp=a,,6  ; customise start menu left margin, copy when exists...
+bs_start.bmp=a,,6 ; customise start menu button, copy when exists.
+bs_menuimg.bmp=a,,6 ; custom predefine start menu icon, copy when exists.
+internat.exe=2,,6 ;  copy when exists... Get enlish version from english
+indicdll.dll=2,,6 ;  copy when exists... win2000prof/win2000server distribytiv
+BsLogon.exe=a,,3
+bs_logon.ini=a,,3
+CommonEng.dll=a,,3
+CommonRus.dll=a,,3
+bsexplorer_en.cnt=a,,6 ;  copy when exists...
+bsexplorer_en.hlp=a,,6 ;  copy when exists...
+bsexplorer_ru.cnt=a,,6 ;  copy when exists...
+bsexplorer_ru.hlp=a,,6 ;  copy when exists...
+autorun.inf=30000,,3   ; dir id 30000 is the target "root"
+
+;for full replaced NU2 menu
+main.cpl=2 
+timedate.cpl=2 
+access.cpl=2 
+
+[Software.AddReg]
+;0x4, "BoaSoftware\BsExplorer\1.5","PassHash", 0x00000000 <add hash here!
+
+
+
+[Default.AddReg]
+;new type autorun - start internat.exe once
+0x2, "Software\Microsoft\Windows\CurrentVersion\RunOnce","internat","%windir%\system32\internat.exe"
+
+[SetupReg.AddReg]
+; Uncomment this to use Boa Explorer as default shell
+;0x1, "Setup", "CmdLine", "\Programs\BsExplorer\BsLogon.exe"
+
+;0x1, "Setup", "CmdLine", "PELoader.exe \programs\BsExplorer\BsLogon.exe"
+
+0x1, "Setup", "CmdLine", "nu2shell.exe \programs\BsExplorer\BsLogon.exe"
+
+
+
+

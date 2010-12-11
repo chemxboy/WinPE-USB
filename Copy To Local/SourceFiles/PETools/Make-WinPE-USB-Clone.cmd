@@ -51,6 +51,7 @@ goto end
 echo !! NOTE: DO NOT REMOVE THIS USB DEVICE !!
 echo.
 echo Insert a new USB device and press any key to continue . . .
+echo (or press CTRL + C to quit)
 pause >nul
 echo.
 echo What is the drive letter assigned to the new USB device? eg. E

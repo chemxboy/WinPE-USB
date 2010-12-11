@@ -49,6 +49,7 @@ echo Exiting...
 goto end
 )
 echo Insert USB device and press any to continue . . .
+echo (or press CTRL + C to quit)
 pause >nul
 echo.
 echo What is the drive letter assigned to the USB device? eg. E

@@ -1,0 +1,21 @@
+:Base bsexplorer_en.hlp
+1 BsExplorer v1.5
+2 Introduction=Welkome@bsexplorer_en.hlp
+2 Opportunities of the program=possibilities@bsexplorer_en.hlp
+2 The license agreement=license@bsexplorer_en.hlp
+2 About the author of the program.=about@bsexplorer_en.hlp
+2 History of versions of the program=historu@bsexplorer_en.hlp
+1 Job with the program
+2 Dialogue of input of the password=password dialog@bsexplorer_en.hlp
+2 Dialogue of a choice of system=logon dialog@bsexplorer_en.hlp
+2 Dialogue of end of job=shitdown dialog@bsexplorer_en.hlp
+2 The task passwords protection=set password@bsexplorer_en.hlp
+1 Files of a configuration
+2 Purpose of files of a configuration=config files@bsexplorer_en.hlp
+2 The description built - in commands=comand@bsexplorer_en.hlp
+2 File of a configuration of the program=explorer.ini@bsexplorer_en.hlp
+2 File of a configuration of the menu "Start"=start.ini@bsexplorer_en.hlp
+2 File of a configuration of fast start=qlaunch.ini@bsexplorer_en.hlp
+2 File of a configuration of a desktop=desktop.ini@bsexplorer_en.hlp
+2 Example inf - a file of a plug-in=inf sample@bsexplorer_en.hlp
+

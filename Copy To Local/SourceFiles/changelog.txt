@@ -15,24 +15,37 @@
 * Created a commands.cmd file that performs a list of commands (called by detectUSB.cmd)
 
 1.2.0 - Added Useful Tools
-* Added and configure BGInfo to launch
-* Added and configure setres to change resolution to 1024x768
+* Added and configured BGInfo to launch
+* Added and configured setres to change resolution to 1024x768
 * Added Ghost
 * Added GImage - GUI for ImageX
 * Created quick execution batch files that can be launched anywhere
 
 1.2.1 - Added Useful Tools
-* Added a BIOS resetting utility
+* Added a BIOS Reset Tool
 
-1.2.5 - Implemented a Main Options Menu
+1.3.0 - Implemented a Main Options Menu
 * Created a Main Options Menu to perform common tasks
 
-1.3.0 - Cosmetic updates
-* Changed the wallpaper
+1.3.1 - Cosmetic updates
+* Changed the wallpaper - Modest Camden theme
 * Changed the appearence of the menus
 
 1.4.0 - Duplicate Option
 * Added the ability to duplicate the USB key to another USB key (only works in Windows Vista & upwards)
 
 1.4.1 - Duplicate Fix
-* Recreate the duplicate USB method so that its compatible with Windows XP (& upwards)
+* Recreated the 'duplicate USB' script so that its compatible with Windows XP (& upwards)
+
+1.5.0 - Implemented a third-party explorer shell & more tools
+* Added BS Explorer shell and configured Start Menu with all available tools for quick launch
+* Added MS Paint
+* Added MS Wordpad
+* Added ERD System Restore
+* Added ERD Explorer File Manager
+* Added File Search
+* Added Hotfix Uninstaller Tool
+* Added Windows Password Reset Tool
+* Added Network Configuration Tool (*known bug*)
+* Added Remote Desktop App
+* Added Registry Editor

@@ -1,0 +1,21 @@
+:Base bsexplorer_ru.hlp
+1 BsExplorer v1.5
+2 Введение=welkome@bsexplorer_ru.hlp
+2 Возможности программы=possibilities@bsexplorer_ru.hlp
+2 Лицензионное соглашение=license@bsexplorer_ru.hlp
+2 Об авторе программы.=about@bsexplorer_ru.hlp
+2 История версий программы=historu@bsexplorer_ru.hlp
+1 Работа с программой
+2 Диалог ввода пароля=password dialog@bsexplorer_ru.hlp
+2 Диалог выбора системы=logon dialog@bsexplorer_ru.hlp
+2 Диалог завершения работы=shitdown dialog@bsexplorer_ru.hlp
+2 Задание парольной защиты=set password@bsexplorer_ru.hlp
+1 Файлы конфигурации
+2 Назначение файлов конфигурации=config files@bsexplorer_ru.hlp
+2 Описание встроенных комманд=comand@bsexplorer_ru.hlp
+2 Файл конфигурации программы=explorer.ini@bsexplorer_ru.hlp
+2 Файл конфигурации меню "Пуск"=start.ini@bsexplorer_ru.hlp
+2 Файл конфигурации быстрого запуска=qlaunch.ini@bsexplorer_ru.hlp
+2 Файл конфигурации рабочего стола=desktop.ini@bsexplorer_ru.hlp
+2 Пример inf - файла плагина=inf sample@bsexplorer_ru.hlp
+
