@@ -10,11 +10,12 @@ echo.
 echo ########################################################
 echo #                                                      #
 echo #    CAMDEN SCHOOLS IT ENGINEERS WINDOWS PE UTILITY    #
-echo #              by Neil Bourne-Harris (CSITS)           #
+echo #           by Neil Bourne-Harris (CSITS)              #
 echo #                                                      #
 echo ########################################################
 echo.
 echo             WINDOWS PE USB DEVICE BUILDER
+echo                  v2.0b (make clone)
 echo             -----------------------------
 echo.
 
@@ -25,11 +26,11 @@ echo.
 echo.
 echo.
 echo.
-echo ********* [ !!! W A R N I N G !!! ] *********
-echo *                                           *
-echo *  DO NOT EXECUTE THIS FILE ON THE SERVER!  *
-echo *                                           *
-echo *********************************************
+echo ************** [ !!! W A R N I N G !!! ] ***************
+echo *                                                      *
+echo *        DO NOT EXECUTE THIS FILE ON THE SERVER!       *
+echo *                                                      *
+echo ********************************************************
 echo Exiting...
 goto end
 
@@ -40,11 +41,11 @@ echo.
 echo.
 echo.
 echo.
-echo ********* [ !!! W A R N I N G !!! ] *********
-echo *                                           *
-echo *  DO NOT EXECUTE THIS FILE ON THE SERVER!  *
-echo *                                           *
-echo *********************************************
+echo ************** [ !!! W A R N I N G !!! ] ***************
+echo *                                                      *
+echo *        DO NOT EXECUTE THIS FILE ON THE SERVER!       *
+echo *                                                      *
+echo ********************************************************
 echo Exiting...
 goto end
 )
