@@ -49,3 +49,18 @@
 * Added Network Configuration Tool (*known bug*)
 * Added Remote Desktop App
 * Added Registry Editor
+
+1.5.1 - Added quick launch icons and dekstop icons
+* Shortcut to My Explorer on desktop
+* Shortcut to G-ImageX on desktop
+* Shortcut to Ghost on desktop
+* Shortcut to Duplicate this USB Key on desktop
+* Shortcut to CMD Prompt on desktop
+* Shortcut to Show Desktop on quick-launch bar
+* Shortcut to Notepad on quick-launch bar
+* Shortcut to CMD Prompt on quick lanch bar
+
+1.5.2 - Added Useful Tools & File Association on double click in My Explorer
+* Added Clamwin antivirus and launched in tasktray on startup
+* Added GhostExplorer.exe and associated it with *.GHO and *.GHS
+* Added 7-Zip and associated it with most compression file types

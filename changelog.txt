@@ -1,0 +1,66 @@
+########################################################
+#                                                      #
+#    CAMDEN SCHOOLS IT ENGINEERS WINDOWS PE UTILITY    #
+#              by Neil Bourne-Harris (CSITS)           #
+#                                                      #
+########################################################
+
+
+1.0.0 - Initial release. Default settings from WAIK
+* Removed "bootfix.bin" which disables the prompt to press any key to boot from USB
+
+1.1.0 - Made USB drive dynamic so that tools can be added to the drive but not to the boot.wim image
+* Create a detectusb.cmd script to identify which drive booted the PE
+* Modified startnet.cmd to launch the detectusb.cmd script
+* Created a commands.cmd file that performs a list of commands (called by detectUSB.cmd)
+
+1.2.0 - Added Useful Tools
+* Added and configured BGInfo to launch
+* Added and configured setres to change resolution to 1024x768
+* Added Ghost
+* Added GImage - GUI for ImageX
+* Created quick execution batch files that can be launched anywhere
+
+1.2.1 - Added Useful Tools
+* Added a BIOS Reset Tool
+
+1.3.0 - Implemented a Main Options Menu
+* Created a Main Options Menu to perform common tasks
+
+1.3.1 - Cosmetic updates
+* Changed the wallpaper - Modest Camden theme
+* Changed the appearence of the menus
+
+1.4.0 - Duplicate Option
+* Added the ability to duplicate the USB key to another USB key (only works in Windows Vista & upwards)
+
+1.4.1 - Duplicate Fix
+* Recreated the 'duplicate USB' script so that its compatible with Windows XP (& upwards)
+
+1.5.0 - Implemented a third-party explorer shell & more tools
+* Added BS Explorer shell and configured Start Menu with all available tools for quick launch
+* Added MS Paint
+* Added MS Wordpad
+* Added ERD System Restore
+* Added ERD Explorer File Manager
+* Added File Search
+* Added Hotfix Uninstaller Tool
+* Added Windows Password Reset Tool
+* Added Network Configuration Tool (*known bug*)
+* Added Remote Desktop App
+* Added Registry Editor
+
+1.5.1 - Added quick launch icons and dekstop icons
+* Shortcut to My Explorer on desktop
+* Shortcut to G-ImageX on desktop
+* Shortcut to Ghost on desktop
+* Shortcut to Duplicate this USB Key on desktop
+* Shortcut to CMD Prompt on desktop
+* Shortcut to Show Desktop on quick-launch bar
+* Shortcut to Notepad on quick-launch bar
+* Shortcut to CMD Prompt on quick lanch bar
+
+1.5.2 - Added Useful Tools & File Association on double click in My Explorer
+* Added Clamwin antivirus and launched in tasktray on startup
+* Added GhostExplorer.exe and associated it with *.GHO and *.GHS
+* Added 7-Zip and associated it with most compression file types
