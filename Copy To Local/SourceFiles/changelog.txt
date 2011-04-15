@@ -1,7 +1,7 @@
 ########################################################
 #                                                      #
 #    CAMDEN SCHOOLS IT ENGINEERS WINDOWS PE UTILITY    #
-#              by Neil Bourne-Harris (CSITS)           #
+#             by Neil Bourne-Harris (SITSS)            #
 #                                                      #
 ########################################################
 
@@ -46,7 +46,7 @@
 * Added File Search
 * Added Hotfix Uninstaller Tool
 * Added Windows Password Reset Tool
-* Added Network Configuration Tool (*known bug*)
+* Added Network Configuration Tool (*known bug still outstanding*)
 * Added Remote Desktop App
 * Added Registry Editor
 
@@ -64,3 +64,15 @@
 * Added Clamwin antivirus and launched in tasktray on startup
 * Added GhostExplorer.exe and associated it with *.GHO and *.GHS
 * Added 7-Zip and associated it with most compression file types
+
+1.5.3 - 
+* Changed acronym from CSITS to SITSS
+* Cosmetic changes to some of the scripts
+* Modified the code in the "detectUSB.cmd" script to catch the usbdrive.flg with a lower failure rate
+* Changed the order items are launched in the "commands.cmd" file
+* "common.dll" compressed within a zip file and unzipped via "commands.cmd" to its relevent locations
+* Changed wallpaper design
+* Removed Clamwin antivirus
+
+1.6.0 - Rebuilt the structure so that the USB Key can be removed once loaded
+* Process added which copies the PETools folder and files into RAM so they can be launched without the USB key

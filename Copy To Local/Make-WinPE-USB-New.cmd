@@ -10,7 +10,7 @@ echo.
 echo ########################################################
 echo #                                                      #
 echo #    CAMDEN SCHOOLS IT ENGINEERS WINDOWS PE UTILITY    #
-echo #           by Neil Bourne-Harris (CSITS)              #
+echo #           by Neil Bourne-Harris (SITSS)              #
 echo #                                                      #
 echo ########################################################
 echo.

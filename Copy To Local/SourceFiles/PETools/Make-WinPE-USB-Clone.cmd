@@ -10,7 +10,7 @@ echo.
 echo ########################################################
 echo #                                                      #
 echo #    CAMDEN SCHOOLS IT ENGINEERS WINDOWS PE UTILITY    #
-echo #           by Neil Bourne-Harris (CSITS)              #
+echo #           by Neil Bourne-Harris (SITSS)              #
 echo #                                                      #
 echo ########################################################
 echo.
@@ -49,7 +49,9 @@ echo ********************************************************
 echo Exiting...
 goto end
 )
-echo !! NOTE: DO NOT REMOVE THIS USB DEVICE !!
+echo ---------------------------------------------------------
+echo !! NOTE: MAKE SURE THE ORIGINAL USB DEVICE IS INSERTED !!
+echo ---------------------------------------------------------
 echo.
 echo Insert a new USB device and press any key to continue . . .
 echo (or press CTRL + C to quit)
@@ -77,12 +79,9 @@ echo [Step 2]
 echo.
 echo - Copying/Updating Files (approx 30 secs)...
 echo.
-echo _MyFiles > "%BuildFiles%\exclude.txt"
-echo _MyImages >> "%BuildFiles%\exclude.txt"
 if not exist "%SourceFiles%\_MyFiles" mkdir "%SourceFiles%\_MyFiles" >nul
 if not exist "%SourceFiles%\_MyFiles" mkdir "%SourceFiles%\_MyImages" >nul
 xcopy "%SourceFiles%\" "%_input%:\" /q /e /i /h /y /exclude:"%BuildFiles%\exclude.txt" >nul
-del "%BuildFiles%\exclude.txt" >nul
 
 "%BuildFiles%\bootsect.exe" /nt60 %_input%: >nul
 
@@ -95,3 +94,5 @@ echo.
 :end
 echo PRESS ANY KEY TO EXIT . . .
 pause >nul
+
+endlocal

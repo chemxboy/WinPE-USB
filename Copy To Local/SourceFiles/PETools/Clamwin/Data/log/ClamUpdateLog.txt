@@ -1,9 +1,0 @@
---------------------------------------
-ClamAV update process started at Mon Dec 13 21:56:40 2010
-Downloading main.cvd [100%]
-main.cvd updated (version: 53, sigs: 846214, f-level: 53, builder: sven)
-Downloading daily.cvd [100%]
-daily.cvd updated (version: 12384, sigs: 11124, f-level: 58, builder: guitar)
-Downloading bytecode.cvd [100%]
-bytecode.cvd updated (version: 93, sigs: 16, f-level: 54, builder: edwin)
-Database updated (857354 signatures) from database.clamav.net (IP: 193.1.193.64)

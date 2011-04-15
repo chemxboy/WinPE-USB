@@ -1,7 +1,7 @@
 ########################################################
 #                                                      #
 #    CAMDEN SCHOOLS IT ENGINEERS WINDOWS PE UTILITY    #
-#              by Neil Bourne-Harris (CSITS)           #
+#              by Neil Bourne-Harris (SITSS)           #
 #                                                      #
 ########################################################
 
