@@ -1,0 +1,1 @@
+Setting up GIT GUI on windows: http://drewblas.com/category/git/

@@ -1,0 +1,10 @@
+FIXED - explorer not working - missing common.dll - zip the dll and unzip it each time the usbkey loads
+FIXED? - sometimes the detectUSB doesnt detect the USB, but if its run again, it finds it.
+
+FIXED - add gui for diskpart
+
+FIXED - change bginfo: "PE Enviroment Version" <--remove
+FIXED - change bginfo: "Compile Version" =  "Utility Version"
+FIXED - change bginfo: "PE Build Version" = "PE Enviroment: Windows PE 3.0 (Windows 7)"
+
+FIXED - copy PETools to the RAMDRive so that the USB key can be removed
