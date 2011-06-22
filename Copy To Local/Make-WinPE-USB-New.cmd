@@ -61,13 +61,14 @@ echo.
 echo - Preparing USB device (%_input%:)...
 echo.
 echo - Quick Formatting [PRESS ENTER TO CONFIRM AND CONTINUE!]...
-format %_input%: /FS:FAT32 /V:WINPE30 /Q >nul
+format %_input%: /FS:FAT32 /V:WINPE30_ /Q >nul
 echo - Converting to NTFS...
 echo.
 convert.exe %_input%: /FS:NTFS >nul
 echo - Writing MBR as active...
 echo.
-"%BuildFiles%\mbrwiz.exe" /vol=%_input%: /active /confirm >nul
+"%BuildFiles%\mbrwiz.exe" /vol=WINPE30_ /active /confirm >nul
+label e: WINPE30
 echo - Result: Done - drive is bootable
 echo.
 echo.

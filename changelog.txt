@@ -65,7 +65,7 @@
 * Added GhostExplorer.exe and associated it with *.GHO and *.GHS
 * Added 7-Zip and associated it with most compression file types
 
-1.5.3 - 
+1.5.3 -
 * Changed acronym from CSITS to SITSS
 * Cosmetic changes to some of the scripts
 * Modified the code in the "detectUSB.cmd" script to catch the usbdrive.flg with a lower failure rate
@@ -76,3 +76,6 @@
 
 1.6.0 - Rebuilt the structure so that the USB Key can be removed once loaded
 * Process added which copies the PETools folder and files into RAM so they can be launched without the USB key
+
+1.6.1 - Fixed the Make USB script
+* Make-WinPE-USB-New.cmd script modified to identify the USB key by volume name instead of by volume letter
